@@ -1,0 +1,375 @@
+{
+  "info": {
+    "_postman_id": "d7c0af2c-6ea8-409e-a159-b9124b0c894d",
+    "name": "My Collection",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52919013",
+    "_collection_link": "https://go.postman.co/collection/52919013-d7c0af2c-6ea8-409e-a159-b9124b0c894d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/transacciones",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "transacciones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/health",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/historial/transacciones",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/transacciones",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "transacciones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/historial/transacciones",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/transacciones?codigo_producto=LOG-G502&limit=20",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "transacciones"
+          ],
+          "query": [
+            {
+              "key": "codigo_producto",
+              "value": "LOG-G502"
+            },
+            {
+              "key": "limit",
+              "value": "20"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/historial/transacciones/productos.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/transacciones?codigo_producto=LOG-G502&limit=20",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "transacciones"
+          ],
+          "query": [
+            {
+              "key": "codigo_producto",
+              "value": "LOG-G502"
+            },
+            {
+              "key": "limit",
+              "value": "20"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/comentarios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/comentarios?producto_id=3&usuario_id=2&limit=10",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "comentarios"
+          ],
+          "query": [
+            {
+              "key": "producto_id",
+              "value": "3"
+            },
+            {
+              "key": "usuario_id",
+              "value": "2"
+            },
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/comentarios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/comentarios",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "comentarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/historial/cambios-producto",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/cambios-producto?producto_id=3&limit=10",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "cambios-producto"
+          ],
+          "query": [
+            {
+              "key": "producto_id",
+              "value": "3"
+            },
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:3000/api/historial/cambios-producto",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/cambios-producto",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "cambios-producto"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Historial de Trasacciones ",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"codigo_producto\": \"LOG-G502\",\n  \"nombre_producto\": \"Mouse Logitech G502\",\n  \"almacen\": \"Almacen Central\",\n  \"cantidad\": 1,\n  \"precio_unitario\": 450\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/transacciones",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "transacciones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cambios de Producto",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"producto_id\": 3,\n  \"codigo\": \"LOG-G502\",\n  \"tipo_cambio\": \"ACTUALIZAR\",\n  \"antes\": { \"precio\": 430 },\n  \"despues\": { \"precio\": 450 },\n  \"modificado_por\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/historial/cambios-producto",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "historial",
+            "cambios-producto"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insertar Comentarios",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"producto_id\": 3,\n  \"usuario_id\": 2,\n  \"texto\": \"Prueba Zona502 desde Postman\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/comentarios",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "comentarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
